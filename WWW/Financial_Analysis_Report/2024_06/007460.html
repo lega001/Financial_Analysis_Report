@@ -1,0 +1,101 @@
+
+            <html>
+            <head>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        background-color: #f4f4f4;
+                        padding: 20px;
+                    }
+                    .table-container {
+                        max-height: 600px;  /* 테이블 전체 컨테이너의 높이 지정 */
+                        overflow-y: auto;  /* 스크롤 생성 */
+                        margin: 25px 0;
+                    }
+                    table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        font-size: 14px;
+                        text-align: left;
+                        background-color: #ffffff;
+                        box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+                    }
+                    th, td {
+                        border: 1px solid #ddd;
+                        padding: 12px 15px;
+                    }
+                    th {
+                        background-color: #808080;  /* 회색으로 변경 */
+                        color: white;
+                        text-align: center;
+                        position: sticky;  /* 헤더 고정 */
+                        top: 0;  /* 상단에 고정 */
+                        z-index: 1;  /* 헤더가 다른 요소 위에 있도록 설정 */
+                    }
+                    tr {
+                        border-bottom: 1px solid #dddddd;
+                    }
+                    tr:nth-of-type(even) {
+                        background-color: #f3f3f3;
+                    }
+                    tr:hover {
+                        background-color: #f1f1f1;
+                    }
+                    th {
+                        text-align: center;
+                    }
+                </style>
+            </head>
+            <body>
+                <h2>kospi_500 반기보고서 (2024.06) Financial Scores for 에이프로젠</h2>
+                <div class="table-container">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Company Name</th>
+      <th>Final Score (100점 만점)</th>
+      <th>Stability Score (25점)</th>
+      <th>Profitability Score (25점)</th>
+      <th>Growth Score (25점)</th>
+      <th>Activity Score (25점)</th>
+      <th>Debt Ratio Score</th>
+      <th>Current Ratio Score</th>
+      <th>Interest Coverage Ratio Score</th>
+      <th>ROA Score</th>
+      <th>ROE Score</th>
+      <th>Operating Profit Margin Score</th>
+      <th>Sales Growth Score</th>
+      <th>Operating Profit Growth Score</th>
+      <th>Total Asset Growth Score</th>
+      <th>Total Asset Turnover Score</th>
+      <th>Accounts Receivable Turnover Score</th>
+      <th>Inventory Turnover Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>에이프로젠 <a href="https://m.stock.naver.com/domestic/stock/007460/total" target="_blank">[mobile]</a> <a href="https://finance.naver.com/item/main.nhn?code=007460" target="_blank">[pc]</a></td>
+      <td>33</td>
+      <td>16</td>
+      <td>5</td>
+      <td>6</td>
+      <td>6</td>
+      <td>10</td>
+      <td>5</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+                </div>
+            </body>
+            </html>
+            
